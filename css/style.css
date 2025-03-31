@@ -60,7 +60,6 @@ p{
 
 .bio-section{
     background: url(biography-bg.png);
-    margin: 50px;
 }
 
 .second-img{
@@ -82,4 +81,39 @@ p{
     float: left;
     width: 30%;
     margin: 18px;
+}
+
+
+/* Footer Section Styling */
+.foot-sec{
+    background: url(footer-bg.png);
+    margin: 50px;
+}
+
+.foot-sec p{
+    text-align: center;
+}
+
+.foot-sec h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.foot-sec small{
+    display: block;
+    text-align: center;
+}
+
+.message{
+    background-color: tomato;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.message p{
+    text-align: center;
+    font-size: 16px;
 }
