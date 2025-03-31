@@ -12,6 +12,7 @@ body{
 /* Banner Styling Style */
 .banner{
     background-image: url(header-bg.png);
+    margin: 50px;
 }
 .half-width{
     width: 40%;
@@ -59,8 +60,26 @@ p{
 
 .bio-section{
     background: url(biography-bg.png);
+    margin: 50px;
 }
 
 .second-img{
     width: 100%;
+}
+
+/* Latest Work Styling */
+
+.latest-work{
+    background: url(latest-work-bg.png);
+    margin: 50px;
+}
+.latest-work h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.showcase img{
+    float: left;
+    width: 30%;
+    margin: 18px;
 }
